@@ -1,0 +1,140 @@
+*{
+    box-sizing: border-box;}
+    body{
+    margin: 0;
+    }
+    .navbar{
+        display: flex;
+        flex-flow: row wrap;
+        height: 100px;
+        background: rgb(255, 0, 0);
+        justify-content: center;
+        align-items: center;
+        }
+        .logo{
+        flex: 20%;
+        border: 1px solid white;
+        text-align: center;
+        }
+        .logo h1{
+        font-family: Arial, Helvetica, sans-serif;
+        color: rgb(255, 255, 255);
+        font-size: 30px;
+        }
+        .menu{
+        flex: 80%;
+        border: 1px solid white;
+        text-align: right;
+        padding: 20px;
+        }
+        .menu a{
+            color: rgb(255, 255, 255);
+            text-decoration: none;
+            font-size: 20px;
+            padding: 20px 16px;
+            }
+            .menu a:hover{
+            color: rgb(255, 255, 255);
+            border-top: 4px solid rgb(255, 255, 255);
+            }
+            #botao{
+            background: rgb(255, 255, 255);
+            padding: 10px 25px;
+            color: red;
+            border-radius: 5px;
+            margin-right: 10%;
+            margin-left: 5%;
+            }
+            #botao:hover{
+            border: none;
+            background: rgb(255, 192, 192);
+            color: white
+            }
+            .logo{
+                flex: 20%;
+                border: 1px solid rgb(255, 255, 255);
+                text-align: center;
+                margin-left: 10%;
+                }
+                .menu{
+                flex: 70%;
+                border: 1px solid rgb(255, 255, 255);
+                text-align: right;
+                padding: 20px;
+                }
+                .principal{
+                    display: flex;
+                    flex-flow: row wrap;height: 300px;
+                    background: gray;
+                    }
+                    .texto{
+                    margin-left: 10%;
+                    flex: 40%;
+                    border: 1px solid black;}
+                    .imagem{
+                    display: flex;
+                    flex-flow: row wrap;margin-right: 10%;
+                    flex: 40%;
+                    border: 1px solid rgb(255, 255, 255);justify-content: center;align-items: center;}
+                    .principal{
+                        display: flex;
+                        flex-flow: row wrap;
+                        height: 300px;
+                        background: rgb(116, 116, 116);
+                        }
+                        .texto{
+                        margin-left: 10%;
+                        flex: 40%;
+                        border: 1px solid black;
+                        }
+                        .texto h2{
+                            font-weight: 900;
+                            font-size: 20px;
+                            color: rgb(252, 252, 252);
+                            padding: 0;
+                            margin: 0;
+                            }
+                            .imagem{
+                            display: flex;
+                            flex-flow: row wrap;margin-right: 10%;
+                            flex: 40%;
+                            border: 1px solid rgb(255, 255, 255);justify-content: center;align-items: center;}
+                            .texto p{
+                                color: black;
+                                }
+                                .botaosobre{
+                                    display: inline-block;
+                                    background: rgb(255, 255, 255);
+                                    padding: 10px;
+                                    color: red;
+                                    text-decoration: none;
+                                    }
+                                    .botaosobre:hover{background: rgb(100, 100, 100);}
+
+                                    section{
+                                        display: inline-block;
+                                        margin-top: 80px;
+                                        border: 1px solid black;
+                                        margin-left: 5%;
+                                        margin-right: 5%;
+                                        height: 600px;
+                                        padding: 5%;
+                                        text-align: center;
+                                        width: 90%;
+                                    }
+                                    section h2{
+                                        width: 100%;
+                                        font-size: 50px;
+                                        margin: 0;
+                                        }
+                                        .conteudos{
+                                        display: inline-block;
+                                        margin-top: 5%;
+                                        }
+                                        .card{
+                                        display: inline-block;
+                                        width: 30%;
+                                        padding: 20px;
+                                        margin: 1%;
+                                        border: 1px solid rgb(46, 46, 46);
+                                        }
